@@ -1,0 +1,10 @@
+.main-button {
+	width: 300px;
+	height: 50px;
+	background: linear-gradient(90deg, rgba(216,54,151,1) 0%, rgba(116,123,231,1) 35%, rgba(68,204,248,1) 100%);
+	margin: 20px 0 10px 0;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-weight: lighter;
+}
