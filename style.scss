@@ -1,3 +1,10 @@
+
+:root {
+  --color-blue: rgba(68,204,248,1);
+  --color-pink: #d83697;
+  --color-lightPink: rgba(216,54,151, .1);
+  --color-gradient: linear-gradient(90deg, rgba(216,54,151,1) 0%, rgba(116,123,231,1) 35%, rgba(68,204,248,1) 100%);
+}
 * {
   box-sizing: border-box;
 }
@@ -10,14 +17,25 @@
   justify-content: center;
   align-items: center;
 }
-.row
-{
-  display:flex;
-  justify-content: flex-start;
-  align-content: flex-start;
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
-.col
-{
-  flex-basis: 50%;
+a {
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-blue);
+  color: white;
+  padding: 5px;
+  margin-right: 50px;
+  border-radius: 5px;
 }

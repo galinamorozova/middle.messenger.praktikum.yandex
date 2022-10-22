@@ -1,7 +1,8 @@
+
 .main-button {
-	width: 300px;
+	width: clamp(300px, 100%, 1000px);
 	height: 50px;
-	background: linear-gradient(90deg, rgba(216,54,151,1) 0%, rgba(116,123,231,1) 35%, rgba(68,204,248,1) 100%);
+	background: var(--color-gradient);
 	margin: 20px 0 10px 0;
 	border-radius: 5px;
 	border: none;
