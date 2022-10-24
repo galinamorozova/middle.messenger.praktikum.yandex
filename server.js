@@ -9,10 +9,5 @@ app.engine('hbs', exphbs({
     extname: '.hbs'
 }));
 
-app.get('/', (req, res) => {
-    res.render('index');
-});
+app.use(express.static('src'));
 
-app.listen(3000, () => {
-    console.log('The web server has started on port 3000');
-});

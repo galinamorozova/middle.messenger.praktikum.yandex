@@ -4,7 +4,7 @@
   "description": "",
   "source": "./index.html",
   "scripts": {
-    "start": "parcel ./index.html -p 3000",
+    "start": "parcel index.html -p 3000",
     "build": "parcel build ./netlify.toml",
     "watch": "parcel watch"
   },

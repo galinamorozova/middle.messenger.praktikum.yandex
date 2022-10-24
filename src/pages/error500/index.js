@@ -9,11 +9,7 @@ window.addEventListener("DOMContentLoaded", ()=> {
 
 	if (app) {
 		app.innerHTML = template({
-			inputName: profileInput("name", "Name"),
-			inputMail: profileInput("mail", "E-mail"),
-			inputLogin: profileInput("login", "Login"),
-			inputTel: profileInput("tel", "Tel"),
-			inputPassword: profileInput("pass", "Password"),
+
 		});
 	}
 
