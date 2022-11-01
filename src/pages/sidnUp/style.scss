@@ -1,0 +1,30 @@
+
+.signUp {
+	.form {
+		height: 70%;
+		width: 40%;
+		padding: 20px;
+		margin-top: -100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+
+	.wrong {
+		input {
+			border: 1px solid var(--color-pink);
+			background-color: var(--color-lightPink);
+		}
+	}
+
+	h1, a {
+		text-align: center;
+	}
+
+
+}
+
+
+
+
