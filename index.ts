@@ -11,7 +11,7 @@ import "./src/pages/sidnIn/style.scss";
 import "./src/pages/sidnUp/style.scss";
 import profileInput from "./src/components/profile-input";
 import signIn from "./src/pages/sidnIn/tpl.hbs";
-import signUp from "./src/pages/sidnUp";
+import signUp from "./src/pages/sidnUp/tpl.hbs";
 import profile from "./src/pages/profile/tpl.hbs";
 import profileEdit from "./src/pages/profileEdit/tpl.hbs";
 import error404 from "./src/pages/error404/tpl.hbs";
