@@ -4,6 +4,8 @@ import './style.scss';
 
 Handlebars.registerPartial('chat-input', tpl);
 
-export default (id, value) => {
+const profileInput = (id: string, value: string) => {
 	return tpl({ id, value });
 }
+
+export default profileInput

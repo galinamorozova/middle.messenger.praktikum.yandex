@@ -4,6 +4,7 @@ import './style.css';
 
 Handlebars.registerPartial('main-button', tpl);
 
-export default (id, value) => {
+ const btn = (id: string, value: string) => {
 	return tpl({ id, value });
 }
+export default btn

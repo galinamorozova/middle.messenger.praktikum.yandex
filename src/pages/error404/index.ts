@@ -1,5 +1,4 @@
 import template from "./tpl.hbs";
-import profileInput from '../../components/profile-input';
 import './style.scss';
 
 
