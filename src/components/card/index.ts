@@ -4,6 +4,8 @@ import './style.scss';
 
 Handlebars.registerPartial('card', tpl);
 
-export default (id: string, name: string, msg: string) => {
+const card = (id: string, name: string, msg: string) => {
 	return tpl({ id, name, msg });
 }
+
+export default card
